@@ -1,0 +1,18 @@
+[debug] [2018-02-01T10:40:52.092Z] ----------------------------------------------------------------------
+[debug] [2018-02-01T10:40:52.096Z] Command:       /Users/marvin/.nvm/versions/node/v9.3.0/bin/node /Users/marvin/.nvm/versions/node/v9.3.0/bin/firebase deploy --only functions
+[debug] [2018-02-01T10:40:52.096Z] CLI Version:   3.16.0
+[debug] [2018-02-01T10:40:52.096Z] Platform:      darwin
+[debug] [2018-02-01T10:40:52.096Z] Node Version:  v9.3.0
+[debug] [2018-02-01T10:40:52.097Z] Time:          Thu Feb 01 2018 12:40:52 GMT+0200 (SAST)
+[debug] [2018-02-01T10:40:52.097Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-01T10:40:52.122Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-01T10:40:52.122Z] > authorizing via signed-in user
+[debug] [2018-02-01T10:40:52.124Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hlulani-server  
+  
+ Thu Feb 01 2018 12:40:52 GMT+0200 (SAST)
+[debug] [2018-02-01T10:40:53.533Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-01T10:40:53.534Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hlulani-server/tokens  
+  
+ Thu Feb 01 2018 12:40:53 GMT+0200 (SAST)
+[debug] [2018-02-01T10:40:54.764Z] <<< HTTP RESPONSE 200

@@ -13,14 +13,14 @@ const all = {
     "message": "testing if the server works"
 
 }
-app.get('/contacts/all', (function(req, res) {
+app.get('/contacts/all', (function (req, res) {
     res.setHeader('Content-Type', 'application/json');
     return res.send(JSON.stringify(all, null, 3));
 }));
 
 
 //You post data will be here
-app.post('/contacts/add', function(req, res) {
+app.post('/contacts/add', function (req, res) {
     var name = req.body.name;
     var email = req.body.email;
     var subject = req.body.subject;
